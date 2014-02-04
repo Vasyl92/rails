@@ -9,3 +9,13 @@ describe "Rails structure" do
         end
   end
 end
+
+describe "Please write root_path" do
+
+	describe "Please write root_path" do
+
+		it "You should change root " do
+			  visit root_path
+			end
+	end
+end

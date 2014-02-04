@@ -1,7 +1,26 @@
-No examples found.
 
-Finished in 0.01745 seconds
-0 examples, 0 failures
+Rails structure
+  PagesController
+    You shoud Create Controller!!!
 
-Randomized with seed 18014
+Please write root_path
+  Please write root_path
+    You should change root (FAILED - 1)
+
+Failures:
+
+  1) Please write root_path Please write root_path You should change root 
+     Failure/Error: visit root_path
+     NameError:
+       undefined local variable or method `root_path' for #<RSpec::Core::ExampleGroup::Nested_2::Nested_1:0xbf10d00>
+     # ./spec/requests/main_tests_spec.rb:18:in `block (3 levels) in <top (required)>'
+
+Finished in 0.04973 seconds
+2 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/requests/main_tests_spec.rb:17 # Please write root_path Please write root_path You should change root 
+
+Randomized with seed 20514
 
