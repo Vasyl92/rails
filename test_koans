@@ -8,11 +8,16 @@ TESNUMBER=${INFO:0:1}
 echo
 if [[ $INFO =~ .*$VALUE.* ]];
 then
+clear
 echo  "You have passed test number $TESNUMBER"
-sleep 5
-git add --all
-git reset --hard HEAD
-git checkout test6
+echo  "_______________________________________
+|                                     |
+|                                     |
+|             YOU WON!!!!!            |
+|                                     |
+|                                     |
+|                                     |
+---------------------------------------"
 else
 echo "YOU DONT PASSED all tests please try again"
 git add --all
