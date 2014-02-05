@@ -29,5 +29,15 @@ describe "View" do
      end
 
  	end
+ end
 
+describe "View" do
+	describe "Change content pages/about" do
+
+     it "should have the content 'About'" do
+       visit '/pages/about'
+       expect(page).to have_content('About')
+     end
+
+ 	end
  end
