@@ -41,3 +41,13 @@ describe "View" do
 
  	end
  end
+
+ describe "Match" do
+
+	describe "Please write match" do
+
+		it "You should write about_path " do
+			  visit about_path
+			end
+	end
+end
