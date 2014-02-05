@@ -19,3 +19,15 @@ describe "Please write root_path" do
 			end
 	end
 end
+
+describe "View" do
+	describe "Change content" do
+
+     it "should have the content 'Sample App'" do
+       visit '/pages/index'
+       expect(page).to have_content('Sample App')
+     end
+
+ 	end
+
+ end
